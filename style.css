@@ -1,0 +1,23 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1100;
+}
+.navbar__secondary{
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    z-index: 1000;
+}
+.header-red{
+    background-color: red;
+    font-size: large;
+}
+.header-red .nav-link{
+    color: white;
+    font-weight: bold;
+}
+.container header__nav-secondary{
+    position: fixed;
+}
