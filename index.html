@@ -10,57 +10,52 @@
 </head>
 
 <body>
-    <header class="header header-red">
-        <nav class="navbar navbar-expand-lg header__nav" aria-label="primary">
-            <div class="container ms-10">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrimario">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                    <img src="https://placehold.co/120x60" alt="Daily Record">
-                </a>
-                <div class="collapse navbar-collapse" id="menuPrimario">
-                    <ul class="navbar-nav list-unstyled d-flex gap-3">
+    <header class="header sticky-top">
+        <nav class="navbar__primary" aria-label="primary">
+            <div class="upper-container">
+                <div class="upper-wrapper">
+                    <button class="btn-burger">☰</button>
+                    <a class="navbar-brand" href="#" id="icon-nav">
+                        <img src="https://placehold.co/120x60" alt="Daily Record">
+                    </a>
+                    <ul class="navbar-primary-list list-unstyled">
                         <li class="nav-item"><a class="nav-link nav-primary" href="#">News</a></li>
                         <li class="nav-item"><a class="nav-link nav-primary" href="#">Football</a></li>
                         <li class="nav-item"><a class="nav-link nav-primary" href="#">TV&Celeries</a></li>
                         <li class="nav-item"><a class="nav-link nav-primary" href="#">Life</a></li>
                     </ul>
-                    <ul class="navbar-nav list-unstyled d-lg-none">
-                        <li class="nav-item"><a href="#" class="nav-link nav-secondary">BUY A PAPER</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link nav-secondary">ROAD RECORD</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link nav-secondary">PROPERTY</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link nav-secondary">NEWSLETTER SIGNUP</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link nav-secondary">CROSSWORD</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link nav-secondary">HOROSCOPES</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link nav-secondary">DEALS</a></li>
-                    </ul>
-                </div>
-                <div class="d-flex align-items-center gap-2">
-                    <a href="#" class="btn btn-dark text-white">SUBSCRIBE</a>
-                    <a href="#" class="nav-link">👤</a>
+                    <div class="d-flex align-items-center gap-3">
+                        <button id="Subscribe-button">Subscribe</button>
+                        <a href="#" class="nav-link-icon">👤</a>
+                    </div>
                 </div>
             </div>
         </nav>
+        <nav class="navbar__secondary sticky-top" aria-label="secondary">
+            <div class="secondary-container">
+                <ul class="navbar__secondary-list list-unstyled d-flex flex-row gap-4">
+                    <li class="nav-item"><a href="" class="nav-link nav-secondary">BUY A PAPER</a></li>
+                    <li class="nav-item"><a href="" class="nav-link nav-secondary">ROAD RECORD</a></li>
+                    <li class="nav-item"><a href="" class="nav-link nav-secondary">PROPERTY</a></li>
+                    <li class="nav-item"><a href="" class="nav-link nav-secondary">NEWSLETTER SIGNUP</a></li>
+                    <li class="nav-item"><a href="" class="nav-link nav-secondary">COMPETITORS</a></li>
+                    <li class="nav-item"><a href="" class="nav-link nav-secondary">CROSSWORDS</a></li>
+                    <li class="nav-item"><a href="" class="nav-link nav-secondary"></a>HOROSCOPES</li>
+                    <li class="nav-item-deal"><a href="" class="nav-link nav-secondary">DEALS</a></li>
+                    <li class="nav-item"><a href="" class="nav-link other-links">FUNERAL NOTICES</a></li>
+                    <li class="nav-item"><a href="" class="nav-link other-links">JOBS</a></li>
+                    <li class="nav-item"><a href="" class="nav-link other-links">ADVERTISE WITH US</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <nav class="navbar__secondary d-lg-block w-100" aria-label="secondary">
-        <div class="container">
-            <ul class="navbar-nav list-unstyled d-flex flex-row justify-content-center gap-3">
-                <li class="nav-item"><a href="" class="nav-link nav-secondary">BUY A PAPER</a></li>
-                <li class="nav-item"><a href="" class="nav-link nav-secondary">ROAD RECORD</a></li>
-                <li class="nav-item"><a href="" class="nav-link nav-secondary">PROPERTY</a></li>
-                <li class="nav-item"><a href="" class="nav-link nav-secondary">NEWSLETTER SIGNUP</a></li>
-                <li class="nav-item"><a href="" class="nav-link nav-secondary">COMPETITORS</a></li>
-                <li class="nav-item"><a href="" class="nav-link nav-secondary">CROSSWORDS</a></li>
-                <li class="nav-item"><a href="" class="nav-link nav-secondary">DEALS</a></li>
-            </ul>
-        </div>
-    </nav>
     <main class="container">
         <div class="row">
             <article>
                 <div class="col-auto">
-                    <img src="https://placehold.co/800x400" alt="" class="w-100">
+                    <picture>
+                        <img src="https://placehold.co/1024x500" alt="" class="w-100">
+                    </picture>
                 </div>
                 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis.</h3>
                 <footer>
@@ -131,7 +126,7 @@
 
             </aside>
         </div>
-        
+
         <div class="row mb-3">
             <div class="col-lg-3 col-6">
                 <article>
@@ -208,7 +203,7 @@
                 </article>
             </div>
         </div>
-        
+
         <div class="row mb-3">
             <div class="col-lg-6">
                 <article>
@@ -303,7 +298,7 @@
 
             </aside>
         </div>
-        
+
         <div class="row mb-3">
             <article>
                 <div class="col-auto">
@@ -313,6 +308,7 @@
                 <footer>
                     <p>Lorem Ipsum</p>
                 </footer>
+            </article>
         </div>
         <div class="row mb-3">
             <div class="col-lg-3 col-6">
@@ -346,7 +342,7 @@
 
             </aside>
         </div>
-        
+
         <article>
             <div class="row mb-3">
                 <div class="col-lg-6">
