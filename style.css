@@ -6,6 +6,11 @@ body {
   overflow-x: clip;
 }
 
+.nav-link-icon{
+  border-radius: 10px;
+  background-color: white;
+}
+
 section {
   padding-top: 20px;
 }
@@ -352,6 +357,7 @@ main.container {
 }
 
 .secondary-footer a {
+  color: #ffffff;
   font-size: 18px;
 }
 
