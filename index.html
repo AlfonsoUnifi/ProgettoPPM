@@ -16,13 +16,16 @@
                 <div class="upper-wrapper">
                     <button class="btn-burger">☰</button>
                     <a class="navbar-brand" href="#" id="icon-nav">
-                        <img src="https://placehold.co/120x60" alt="Daily Record">
+                        <picture class="picture-brand">
+                            <img src="https://placehold.co/120x80?text=Daily+Record" alt="Daily Record">
+                        </picture>
                     </a>
                     <ul class="navbar-primary-list list-unstyled">
-                        <li class="nav-item"><a class="nav-link nav-primary" href="#">News</a></li>
-                        <li class="nav-item"><a class="nav-link nav-primary" href="#">Football</a></li>
-                        <li class="nav-item"><a class="nav-link nav-primary" href="#">TV&Celeries</a></li>
-                        <li class="nav-item"><a class="nav-link nav-primary" href="#">Life</a></li>
+                        <li class="nav-item__nav-primary"><a class="nav-link__nav-primary" href="#">NEWS</a></li>
+                        <li class="nav-item__nav-primary"><a class="nav-link__nav-primary" href="#">FOOTBALL</a></li>
+                        <li class="nav-item__nav-primary"><a class="nav-link__nav-primary" href="#">TV&CELERIES</a></li>
+                        <li class="nav-item__nav-primary"><a class="nav-link__nav-primary" href="#">LIFE</a></li>
+                        <li class="nav-item__nav-primary"><a class="nav-link__nav-primary" href="#">MORE</a></li>
                     </ul>
                     <div class="d-flex align-items-center gap-3">
                         <button id="Subscribe-button">Subscribe</button>
@@ -31,688 +34,1191 @@
                 </div>
             </div>
         </nav>
-        <nav class="navbar__secondary sticky-top" aria-label="secondary">
+        <nav class="navbar__secondary" aria-label="secondary">
             <div class="secondary-container">
-                <ul class="navbar__secondary-list list-unstyled d-flex flex-row gap-4">
-                    <li class="nav-item"><a href="" class="nav-link nav-secondary">BUY A PAPER</a></li>
-                    <li class="nav-item"><a href="" class="nav-link nav-secondary">ROAD RECORD</a></li>
-                    <li class="nav-item"><a href="" class="nav-link nav-secondary">PROPERTY</a></li>
-                    <li class="nav-item"><a href="" class="nav-link nav-secondary">NEWSLETTER SIGNUP</a></li>
-                    <li class="nav-item"><a href="" class="nav-link nav-secondary">COMPETITORS</a></li>
-                    <li class="nav-item"><a href="" class="nav-link nav-secondary">CROSSWORDS</a></li>
-                    <li class="nav-item"><a href="" class="nav-link nav-secondary"></a>HOROSCOPES</li>
-                    <li class="nav-item-deal"><a href="" class="nav-link nav-secondary">DEALS</a></li>
-                    <li class="nav-item"><a href="" class="nav-link other-links">FUNERAL NOTICES</a></li>
-                    <li class="nav-item"><a href="" class="nav-link other-links">JOBS</a></li>
-                    <li class="nav-item"><a href="" class="nav-link other-links">ADVERTISE WITH US</a></li>
+                <ul class="navbar__secondary-list list-unstyled d-flex flex-row">
+                    <li class="nav-item"><a href="" class="nav-link__nav-secondary">BUY A PAPER</a></li>
+                    <li class="nav-item"><a href="" class="nav-link__nav-secondary">ROAD RECORD</a></li>
+                    <li class="nav-item"><a href="" class="nav-link__nav-secondary">PROPERTY</a></li>
+                    <li class="nav-item"><a href="" class="nav-link__nav-secondary">NEWSLETTER SIGNUP</a></li>
+                    <li class="nav-item"><a href="" class="nav-link__nav-secondary">COMPETITORS</a></li>
+                    <li class="nav-item"><a href="" class="nav-link__nav-secondary">CROSSWORDS</a></li>
+                    <li class="nav-item"><a href="" class="nav-link__nav-secondary">HOROSCOPES</a></li>
+                    <li class="nav-item-deal"><a href="" class="nav-link__nav-secondary">DEALS</a></li>
+                    <li class="nav-item"><a href="" class="nav-link__other-links">FUNERAL NOTICES</a></li>
+                    <li class="nav-item"><a href="" class="nav-link__other-links">JOBS</a></li>
+                    <li class="nav-item"><a href="" class="nav-link__other-links">ADVERTISE WITH US</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main class="container">
-        <div class="row">
-            <article>
-                <div class="col-auto">
-                    <picture>
-                        <img src="https://placehold.co/1024x500" alt="" class="w-100">
-                    </picture>
+        <section class="section-principal">
+            <div class="row">
+                <article>
+                    <div class="col-auto">
+                        <div class="article-body">
+                            <picture>
+                                <img src="https://placehold.co/1024x500" alt="">
+                            </picture>
+                            <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                quis.</h3>
+                        </div>
+                    </div>
+                    <footer class="article-footer">
+                        <p>Lorem Ipsum</p>
+                    </footer>
+                </article>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
                 </div>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis.</h3>
-                <footer>
-                    <p>Lorem Ipsum</p>
-                </footer>
-            </article>
-        </div>
-        <div class="row mb-3">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-        </div>
-        <div class="row mb-4">
-            <div class="col-lg-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Duis a volutpat urna, at tempor orci.
-                        Etiam iaculis ipsum vel ligula fermentum tincidunt.</h4>
-                    <footer>
-                        <p>Lorem ipsum</p>
-                    </footer>
-                </article>
-                <article>
-                    <img src="https://placehold.co/100x50" alt="">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Duis a volutpat urna, at tempor orci.
-                        Etiam iaculis ipsum vel ligula fermentum tincidunt.</h4>
-                    <footer>
-                        <p>Lorem ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <aside class="col-6 bg-light">
-
-            </aside>
-        </div>
-
-        <div class="row mb-3">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-        </div>
-
-        <div class="row mb-3">
-            <div class="col-lg-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Duis a volutpat urna, at tempor orci.
-                        Etiam iaculis ipsum vel ligula fermentum tincidunt.</h4>
-                    <footer>
-                        <p>Lorem ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Duis a volutpat urna, at tempor orci.
-                        Etiam iaculis ipsum vel ligula fermentum tincidunt.</h4>
-                    <footer>
-                        <p>Lorem ipsum</p>
-                    </footer>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <aside class="col-lg-3 col-6 bg-light">
-
-            </aside>
-        </div>
-
-        <div class="row mb-3">
-            <article>
-                <div class="col-auto">
-                    <img src="https://placehold.co/800x400" alt="">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
                 </div>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis.</h3>
-                <footer>
-                    <p>Lorem Ipsum</p>
-                </footer>
-            </article>
-        </div>
-        <div class="row mb-3">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
             </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <aside class="col-lg-3 col-6 bg-light">
+        </section>
+        <section>
+            <h1 class="title__section">NEWS</h1>
+            <div class="row mb-4">
+                <div class="col-lg-6">
+                    <article>
+                        <div class="article-body">
+                            <img src="https://placehold.co/100x50" alt="">
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Duis a volutpat urna, at tempor orci.
+                                Etiam iaculis ipsum vel ligula fermentum tincidunt.</h4>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem ipsum</p>
+                        </footer>
+                    </article>
+                    <article>
+                        <div class="article-body">
+                            <img src="https://placehold.co/100x50" alt="">
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Duis a volutpat urna, at tempor orci.
+                                Etiam iaculis ipsum vel ligula fermentum tincidunt.</h4>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <aside class="col-6 bg-light">
 
-            </aside>
-        </div>
+                </aside>
+            </div>
 
-        <article>
+            <div class="row mb-3">
+                <div class="col-lg-3 col-6">
+
+                    <div class="col-auto">
+                        <article>
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                    </div>
+                    <footer class="article-footer">
+                        <p>Lorem Ipsum</p>
+                    </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="title__section">SPORT</h1>
             <div class="row mb-3">
                 <div class="col-lg-6">
-                    <img src="https://placehold.co/600x400" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>Lorem ipsum</footer>
+                    <article>
+                        <div class="article-body">
+                            <img src="https://placehold.co/100x50" alt="">
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Duis a volutpat urna, at tempor orci.
+                                Etiam iaculis ipsum vel ligula fermentum tincidunt.</h4>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem ipsum</p>
+                        </footer>
+                    </article>
                 </div>
                 <div class="col-lg-6">
-                    <img src="https://placehold.co/600x400" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
+                    <article>
+                        <div class="article-body">
+                            <img src="https://placehold.co/100x50" alt="">
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Duis a volutpat urna, at tempor orci.
+                                Etiam iaculis ipsum vel ligula fermentum tincidunt.</h4>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <aside class="col-lg-3 col-6 bg-light">
+
+                </aside>
+            </div>
+        </section>
+        <section>
+            <h1 class="title__section">POLITICS</h1>
+            <div class="row mb-3">
+                <article>
+                    <div class="article-body">
+                        <img src="https://placehold.co/100x50" alt="">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Duis a volutpat urna, at tempor orci.
+                            Etiam iaculis ipsum vel ligula fermentum tincidunt.</h4>
+                    </div>
+                    <footer class="article-footer">
                         <p>Lorem ipsum</p>
                     </footer>
+                </article>
+            </div>
+            <div class="row mb-3">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
                 </div>
-            </div>
-        </article>
-        <div class="row">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <aside class="col-lg-3 col-6 bg-light">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <aside class="col-lg-3 col-6 bg-light">
 
-            </aside>
-        </div>
-        <div class="row mb-3">
-            <article>
-                <div class="col-lg-12">
-                    <img src="https://placehold.co/800x400" alt="">
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis.</h3>
-                    </div>
-                </div>
-                <footer>
-                    <p>Lorem Ipsum</p>
-                </footer>
-            </article>
-        </div>
-        <div class="row mb-3">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
+                </aside>
             </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <aside class="col-lg-3 col-6 bg-light">
+        </section>
+        <section>
+            <h1 class="title__section">LIFESTYLE</h1>
+            <div class="row mb-3">
+                <div class="col-lg-6">
+                    <article>
+                        <div class="article-body">
 
-            </aside>
-        </div>
-        <div class="row mb-3">
-            <article>
-                <div class="col-lg-12">
-                    <img src="https://placehold.co/800x400" alt="">
+                            <img src="https://placehold.co/600x400" alt="">
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                        </div>
+                        <footer class="footer-body">Lorem ipsum</footer>
+                    </article>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis.</h3>
+                <div class="col-lg-6">
+                    <article>
+                        <div class="article-body">
+
+                            <img src="https://placehold.co/600x400" alt="">
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <aside class="col-lg-3 col-6 bg-light">
+
+                </aside>
+            </div>
+        </section>
+        <section>
+            <h1 class="title__section">MONEY</h1>
+            <div class="row mb-3">
+                <article>
+                    <div class="article-body">
+                        <div class="col-lg-12">
+                            <img src="https://placehold.co/800x400" alt="">
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis.</h3>
+                        </div>
                     </div>
+                    <footer class="article-footer">
+                        <p>Lorem Ipsum</p>
+                    </footer>
+                </article>
+            </div>
+            <div class="row mb-3">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
                 </div>
-                <footer>
-                    <p>Lorem Ipsum</p>
-                </footer>
-            </article>
-        </div>
-        <div class="row mb-3">
-            <div class="col-lg-3 col-6">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="title__section">TV & CELEBS</h1>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <aside class="col-lg-3 col-6 bg-light">
+
+                </aside>
+            </div>
+        </section>
+        <section>
+            <h1 class="title__section">UK & WORLD NEWS</h1>
+            <div class="row">
                 <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
+                    <div class="article-body">
+                        <div class="col-lg-12">
+                            <img src="https://placehold.co/800x400" alt="">
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis.</h3>
+                        </div>
+                    </div>
+                    <footer class="article-footer">
                         <p>Lorem Ipsum</p>
                     </footer>
                 </article>
             </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
+            <div class="row mb-3">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <aside class="col-lg-3 col-6 bg-light"></aside>
             </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
+        </section>
+        <section>
+            <h1 class="title__section">SHOPPING</h1>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
             </div>
-            <aside class="col-lg-3 col-6 bg-light"></aside>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
+        </section>
+        <section>
+            <h1 style="font-weight: bold;">RECENT ARTICLES</h1>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
             </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <article>
+                        <div class="col-auto">
+                            <div class="article-body">
+                                <picture>
+                                    <img src="https://placehold.co/1024x500" alt="">
+                                </picture>
+                                <h3 class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                    quis.</h3>
+                            </div>
+                        </div>
+                        <footer class="article-footer">
+                            <p>Lorem Ipsum</p>
+                        </footer>
+                    </article>
+                </div>
             </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-        </div>
-        <h1>RECENT NEWS</h1>
-        <div class="row">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-lg-3 col-6">
-                <article>
-                    <img src="https://placehold.co/100x50" alt="" class="w-100">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <footer>
-                        <p>Lorem Ipsum</p>
-                    </footer>
-                </article>
-            </div>
-        </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="bottom-container">
+            <nav class="nav-footer container-fluid">
+                <div class="row nav-footer-list">
+                    <div class="col-lg-auto col-md-6 col-6">
+                        <a href="#" class="footer-main-link">NEWS</a>
+                    </div>
+                    <div class="col-lg-auto col-md-6 col-6">
+                        <a href="#" class="footer-main-link">FOOTBALL</a>
+                    </div>
+                    <div class="col-lg-auto col-md-6 col-6">
+                        <a href="#" class="footer-main-link">TV&CELEBS</a>
+                    </div>
+                    <div class="col-lg-auto col-md-6 col-6">
+                        <a href="#" class="footer-main-link">LIFE</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="wrapper_footer-social">
+                <div class="footer-social">
+                    <p>Follow Daily Records on socials:</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-btn">f</a>
+                        <a href="#" class="social-btn">X</a>
+                        <a href="#" class="social-btn">I</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <div class="wrapper_kite-mark">
+                <div class="footer_kite-mark">
+                    <img src="https://placehold.co/109x48" alt="">
+                    <img src="https://placehold.co/153x48" alt="">
+                </div>
+            </div>
+            <hr>
+            <ul class="secondary-footer">
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Lorem ipsum</a></li>
+            </ul>
+            <p class="footer-copyright">© Copyright Lorem Ipsum</p>
+        </div>
+    </footer>
     <script src="js/bootstrap.bundle.js"></script>
 </body>
 
