@@ -1,3 +1,6 @@
+:root {
+    --gutter-width: max(0px, calc((100vw - 1000px) / 2));
+}
 html,
 body {
   width: 100%;
@@ -6,7 +9,7 @@ body {
   overflow-x: clip;
 }
 
-.nav-link-icon{
+.nav-link-icon {
   border-radius: 10px;
   background-color: white;
 }
@@ -45,6 +48,7 @@ img {
 
 button.btn-burger {
   background-color: transparent;
+  color: white;
   border: none;
   display: none;
 }
@@ -159,21 +163,36 @@ button.btn-burger {
   display: none;
 }
 
+.gutter-left,
+.gutter-right {
+  position: fixed;
+  top: 0;
+  width: max(0px, calc((100vw - 1000px) / 2));
+  height: 100vh;
+  background-color: transparent;
+  z-index: 1;
+}
 
-.page-wrapper {
-  display: grid;
-  grid-template-columns: 1fr minmax(0, 1000px) 1fr;
-  width: 100%;
+.gutter-left {
+  left: 0;
+}
+
+.gutter-right {
+  right: 0;
+}
+
+main.container {
+  /* occupa tutto lo spazio disponibile */
+  max-width: 1000px;
 }
 
 .navbar__secondary,
 main.container,
 .bottom-container {
-  grid-column: 2;
   border: 1px solid #e6dede;
   width: 100%;
-  margin: 0 auto;
-  max-width: 1000px;
+  margin-left: max(0px, calc((100vw - 1000px) / 2));
+  margin-right: max(0px, calc((100vw - 1000px) / 2));
 }
 
 main {
@@ -191,7 +210,6 @@ article img {
 main.container {
   border: 1px solid #e0e0e0;
   width: 100%;
-  padding: 25px;
   padding-top: 50px;
 }
 
@@ -239,9 +257,10 @@ main.container {
 }
 
 @media (max-width: 985px) {
-  .nav-footer{
+  .nav-footer {
     padding: 20px;
   }
+
   .nav-footer-list {
     gap: 0px;
   }
@@ -374,20 +393,38 @@ main.container {
   padding-left: 10px;
 }
 
-
-@media (max-width: 1238px) {
+@media (max-width: 1240px) {
   .nav-item-deal {
     display: none;
   }
 
+  .gutter-left {
+    display: none;
+  }
+
+  .gutter-right {
+    width: 20vw;
+  }
+
+  .upper-wrapper,
+  main.container,
+  .bottom-container,
+  .navbar__secondary {
+    margin-left: 0;
+    max-width: clamp(600px, 90vw, 1000px);
+  }
+
   .navbar__secondary-list {
-    width: 100%;
     gap: 55px;
     padding-right: 16px;
   }
 }
 
 @media (max-width: 1024px) {
+
+  .gutter-left {
+    display: none;
+  }
 
   .nav-item-deal {
     display: block;
@@ -402,7 +439,7 @@ main.container {
   }
 
   .upper-container {
-    padding: 0.5rem;
+    padding-right: 40px;
   }
 
   .upper-container .d-flex {
@@ -411,15 +448,18 @@ main.container {
 }
 
 @media (max-width: 1021px) {
-  .navbar__secondary {
-    overflow-x: auto;
-  }
-
   .navbar__secondary-list {
     overflow-x: auto;
+    scrollbar-width: none;
   }
 
   .nav-link__other-links {
     display: block;
+  }
+}
+
+@media (max-width: 320px){
+  .gutter-right{
+    display: none;
   }
 }
